@@ -178,6 +178,10 @@ class ThemingDefaults extends \OC_Defaults {
 
 		$links = [
 			[
+				'text' => $this->l->t('Tados — разработка ПО на заказ.'),
+				'url' => 'https://tados.ru/'
+			],
+			[
 				'text' => $this->l->t('Legal notice'),
 				'url' => (string)$this->getImprintUrl()
 			],
